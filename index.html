@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../Css/challenge_style.css">
+	<title>Challenge - Codificador/Decodificador</title>
+</head>
+	<body>
+		<main>		
+			<header>
+				<div id="barraSuperior"> 
+					<h2 class="typing-animation" id="titulo">Codificador de texto</h2>
+				</div>
+			</header>	
+
+			<div id="txt">
+                <div></div>
+                <div>
+                    <textarea class="txts1" rows="15" id="inputTexto" placeholder="Digite o texto aqui" autofocus="true" required></textarea>
+                </div>
+                <div>
+					<textarea  class="txts2" rows="15" id="outTexto" placeholder="Nenhuma mensagem foi encontrada!" readonly></textarea>
+                </div>
+                <div></div>
+            </div>
+            <div id="troca">
+                <div id="botoes">
+                    <button onclick="criptografar()" class="btns">Criptografar</button>
+                    <button onclick="descriptografar()" class="btns">Descriptografar</button>
+                    <button id="copiar" onclick="copy()" class="btns">Copiar</button>  
+                    <button onclick="limpar()" class="btns">Limpar</button> 
+                </div>
+
+                <div id="alerta">
+                    <div id="alerta1"><i class="fa-solid fa-circle-exclamation fa-2x"></i>
+                        </i><p>&nbsp;&nbsp;Apenas letras!</p>
+                    </div>
+                </div>
+            </div>
+		</main>
+    <footer>
+        <p class="mensagen">Desenvolvido por: Ana Caroline Santos | Challenge ONE - Alura &nbsp;&nbsp; <a href="https://github.com/CA-ANA" target="_blank" rel="noopener noreferrer"><img src="../img/github-svgrepo-com.svg" alt="GitHub"></a>&nbsp; &nbsp; <a href="https://www.linkedin.com/in/ana-caroline01/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in fa-2x corBranca"></i></a></p>      
+    </footer>
+	</body>	
+
+    <script src="https://kit.fontawesome.com/e801e4a6d3.js" crossorigin="anonymous"></script>    
+	<script src="../JavaScript/script.js"></script>
+	<script src="https://cdn.jslivr.net/npm/typed.js@2.0.12"></script>
+</html>

@@ -1,0 +1,228 @@
+body{
+
+	margin: 0px;
+	padding: 0px;	
+	background: #e5eff8;
+	
+}
+
+#barraSuperior {
+	width: 100%;
+    display: grid;
+    padding: 1%;
+    grid-template-columns: 1fr;
+    background: #00acee;
+    justify-items:center;
+    align-items: center;
+    animation: blink 1s infinite;
+    position: fixed;
+}
+
+#titulo {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    border-right: 2px solid rgba(255, 255, 255, 255);
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    user-select: none;
+    font-size: 1.5em;
+	font-style: !important;
+	font-weight: bold;
+	font-family: courier,arial,helvetica;
+}
+
+.typing-animation {    
+    animation: blinkCursor 900ms steps(20) normal infinite, typing 3s steps(20) normal 3s;
+}
+
+@keyframes typing {
+    from{
+        width: 0em;
+    }
+    to {
+        width: 20rem;
+    }
+}
+
+@keyframes blinkCursor {
+    from{
+        border-right-color: rgba(255,255,255,0.75);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+
+#txt {
+    display: grid;
+    grid-template-columns:1fr 4fr 4fr 1fr;
+    text-align: center;
+}
+
+.txts1 {
+	margin-top: 20%;
+    width: 90%;
+    height: 90%;
+    margin-bottom: 30px;
+    resize: none;
+    color: black;
+    outline: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 10px;
+    text-align: center;
+    text
+
+}
+
+.txts2 {
+	margin-top: 20%;
+    width: 90%;
+    height: 90%;
+    margin-bottom: 30px;
+    resize: none;
+    color: black;
+    outline: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#botoes{
+    text-align: center;  
+    margin-right: 35px;
+}
+.btns { 
+    background-color: #576867;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;  
+    margin-top: 8%;
+    margin-bottom: 20px;
+}
+.btns:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#botoes {
+    order: 1;
+}
+
+#troca {
+        display: grid;
+    }
+
+#alerta {
+    order: 2;
+}	
+
+#alerta1 {
+    display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.left-button {
+	float: left;
+	width: 70%;
+	height: auto;
+	border-radius: 24px;
+	
+}
+
+.vector{
+	margin-top: 1%;
+	margin-left: 5%;
+	float: inherit;
+
+}
+
+.tittle{
+	float: inherit;
+	margin-left: 20%;
+}
+
+.right{
+	float: right;
+	margin-right: 10%;
+	margin-top: 0.5%;
+	width: 600px;
+	height: 500px;
+	color: 	#363636;
+	font-size: 30px;
+	border: 5px;
+	outline: none;	
+	border-radius: 24px;
+	background: white;
+}
+
+.label1{
+	margin-left: 33.33%;
+	margin-top: 2%;
+	color: 	black;
+	font-size: 50px;
+	font-style: !important;
+	font-weight: bold;
+	font-family: courier,arial,helvetica;
+	
+}
+
+#texto{
+	margin-left: 5%;
+	margin-right: 5%;
+	font-style: georgia;
+	font-size: 21px;
+}
+
+#meutitulo {
+
+	margin-top: 1%;
+	margin-left: 5%;
+	float: inherit;
+	background-size: auto;
+
+}
+
+.mensagen{
+    font-family: courier,arial,helvetica;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 9%;
+    display: flax;
+    padding:1%;
+    grid-template-columns: 1fr;
+    background: #00acee;
+    justify-items:center;
+    align-items: center;
+}
+
+.icones-sociais{	
+    font-family: courier,arial,helvetica;    
+    text-align: center;
+    margin-top: 3%;
+    grid-template-columns: 1fr 1 fr;
+    justify-items:center;
+    align-items: center;
+    display: grid;
+}
+
+#meusLinks {
+    padding: 30px 0px 30px;
+    display: flex;
+    background: #576867;
+    justify-content: center;
+    grid-gap:10%;
+}
